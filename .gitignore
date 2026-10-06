@@ -1,0 +1,8 @@
+.venv/
+node_modules/
+.appium/
+apps/
+__pycache__/
+.pytest_cache/
+*.log
+*.apk
