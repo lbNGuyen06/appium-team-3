@@ -1,0 +1,24 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-8.4.2, pluggy-1.6.0 -- C:\Users\ADMIN\Desktop\tester_courses\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\ADMIN\Desktop\tester_courses
+collecting ... collected 1 item
+
+tuan-04/test_smoke.py::test_smoke FAILED                                 [100%]
+
+================================== FAILURES ===================================
+_________________________________ test_smoke __________________________________
+tuan-04\test_smoke.py:30: in test_smoke
+    username = WebDriverWait(driver, 20).until(
+.venv\Lib\site-packages\selenium\webdriver\support\wait.py:121: in until
+    raise TimeoutException(message, screen, stacktrace)
+E   selenium.common.exceptions.TimeoutException: Message: 
+E   Stacktrace:
+E   NoSuchElementError: An element could not be located on the page using the given search parameters.
+E       at AndroidUiautomator2Driver.findElOrEls (C:\Users\ADMIN\Desktop\tester_courses\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.ts:86:11)
+E       at processTicksAndRejections (node:internal/process/task_queues:95:5)
+E       at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\ADMIN\Desktop\tester_courses\.appium\node_modules\appium-uiautomator2-driver\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+E       at AndroidUiautomator2Driver.findElement (C:\Users\ADMIN\Desktop\tester_courses\.appium\node_modules\appium-uiautomator2-driver\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
+=========================== short test summary info ===========================
+FAILED tuan-04/test_smoke.py::test_smoke - selenium.common.exceptions.Timeout...
+============================= 1 failed in 24.29s ==============================

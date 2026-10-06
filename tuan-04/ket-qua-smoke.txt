@@ -1,0 +1,9 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-8.4.2, pluggy-1.6.0 -- C:\Users\ADMIN\Desktop\tester_courses\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\ADMIN\Desktop\tester_courses
+collecting ... collected 1 item
+
+tuan-04/test_smoke.py::test_smoke PASSED                                 [100%]
+
+============================== 1 passed in 9.87s ==============================
