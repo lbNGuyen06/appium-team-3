@@ -1,0 +1,11 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-8.4.2, pluggy-1.6.0 -- C:\Users\ADMIN\Desktop\tester_courses\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\ADMIN\Desktop\tester_courses
+collecting ... collected 3 items
+
+tuan-05/test_login.py::test_login_success PASSED                         [ 33%]
+tuan-05/test_login.py::test_login_locked_user PASSED                     [ 66%]
+tuan-05/test_login.py::test_login_empty_password PASSED                  [100%]
+
+============================= 3 passed in 41.84s ==============================
