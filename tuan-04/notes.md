@@ -33,4 +33,10 @@ là minh chứng lần tự chạy lại.
 
 ## Câu hỏi phần đọc
 
-Cần bổ sung 1–2 câu trả lời bằng lời của mình theo yêu cầu bài học.
+- Appium client, server và driver chạy ở đâu? Client Python và Appium server
+  chạy trên máy tính. Driver UiAutomator2 được nạp trong server, phối hợp với
+  thành phần UiAutomator2 trên Android để điều khiển ứng dụng.
+- Cài APK vào máy ảo thế nào? Kéo file APK vào cửa sổ máy ảo, đợi cài xong
+  rồi mở ứng dụng từ danh sách ứng dụng.
+
+Phần trả lời được soạn với hỗ trợ AI, dựa trên nội dung đã trao đổi và thực hành.

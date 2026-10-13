@@ -8,16 +8,23 @@
 - Log thực tế: `ket-qua-pytest.txt`; ba ảnh màn ứng dụng nằm trong `anh/`.
 - Đã bổ sung ảnh terminal `anh/image.png` từ lần tự chạy lại:
   cả ba test PASSED, tổng kết `3 passed in 26.81s`.
-- Phần nhận xét và câu trả lời cá nhân bên dưới cần bổ sung.
 
 ## Ghi chú cá nhân
 
-- Phần tôi đã thực hiện: [điền đúng việc thực tế]
-- Điều tôi hiểu về tìm phần tử, nhập dữ liệu, bấm nút và assert: [điền]
-- Kết quả chạy và lỗi/cách sửa: [điền]
-- Câu hỏi đọc 1 — Làm thế nào tìm accessibility id bằng Appium Inspector? [tự trả lời]
-- Câu hỏi đọc 2 — Nếu kết quả thực tế khác mong đợi, pytest báo gì? [tự trả lời]
-- Tôi đã hỏi AI điều gì, kiểm tra câu trả lời thế nào, học thêm được gì? [điền]
+- Phần tôi đã thực hiện: Bật máy ảo, tự chạy lại ba test đăng nhập bằng pytest
+  và chụp ảnh kết quả `3 passed in 26.81s`.
+- Kiến thức chính: Tìm phần tử bằng accessibility id, dùng `send_keys` để nhập,
+  `click` để bấm và `assert` để đối chiếu kết quả với mong đợi.
+- Lỗi/cách sửa: Kết nối ADB từng bị treo; AI hỗ trợ khởi động lại ADB,
+  kiểm tra Android sẵn sàng rồi chạy lại thành công.
+- Câu hỏi đọc 1 — Tìm accessibility id bằng Appium Inspector thế nào?
+  Mở phiên kết nối, chọn phần tử trong ảnh/cây giao diện và xem thuộc tính
+  `content-desc` trên Android; giá trị này được dùng làm accessibility id.
+- Câu hỏi đọc 2 — Nếu kết quả khác mong đợi, pytest báo gì?
+  Khi `assert` không đúng, test báo FAILED kèm AssertionError để xem nguyên nhân.
+- Sử dụng AI: Tôi hỏi về vai trò Appium, biến `driver`, kết nối cục bộ và cách
+  test thao tác giao diện. Tôi kiểm tra bằng cách tự chạy lại, xem kết quả và ảnh.
+  Hai ca đăng nhập bị từ chối vẫn PASSED khi ứng dụng báo đúng lỗi mong đợi.
 
 ## Hỗ trợ AI trong quá trình chuẩn bị
 
@@ -32,5 +39,5 @@
 - Các kết quả này do trợ lý chạy trên máy cá nhân; lần tự chạy lại được lưu
   riêng trong ảnh `anh/image.png`.
 
-Trợ lý hỗ trợ soạn test case, code Appium/pytest, hướng dẫn và khung ghi chú.
-Phần nhận xét cá nhân cần phản ánh cách hiểu và trải nghiệm thực hành thực tế.
+Trợ lý hỗ trợ soạn test case, code Appium/pytest, hướng dẫn và ghi chú ngắn gọn
+dựa trên quá trình thực hành và trao đổi thực tế.
