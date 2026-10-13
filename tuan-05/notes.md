@@ -6,7 +6,8 @@
 - Code có chú thích tiếng Việt, chờ phần tử và tạo phiên độc lập cho mỗi test.
 - Đã chạy trên Android `emulator-5554` ngày 13/10/2026: `3 passed in 41.84s`.
 - Log thực tế: `ket-qua-pytest.txt`; ba ảnh màn ứng dụng nằm trong `anh/`.
-- Cần bổ sung ảnh terminal thấy rõ cả ba test PASSED và dòng tổng kết.
+- Đã bổ sung ảnh terminal `anh/image.png` từ lần nhóm trưởng tự chạy lại:
+  cả ba test PASSED, tổng kết `3 passed in 26.81s`.
 - Chưa có phần ghi chú cá nhân của các thành viên cho tuần 5.
 
 ## Thành viên: [điền họ tên — mỗi người sao chép mục này]
