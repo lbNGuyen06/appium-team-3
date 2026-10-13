@@ -1,6 +1,6 @@
 """Bài mẫu để học: mở Swag Labs và kiểm tra ô tên đăng nhập.
 
-Mỗi thành viên cần tự gõ lại, hiểu code và viết chú thích bằng lời của mình.
+Bài thực hành cá nhân: đọc hiểu code và ghi lại nhận xét bằng lời của mình.
 """
 
 import os

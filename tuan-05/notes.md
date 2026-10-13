@@ -1,4 +1,4 @@
-# Ghi chú tuần 5 — nhóm App
+# Ghi chú tuần 5 — Lê Bá Nguyên
 
 ## Tình trạng bài nộp
 
@@ -6,11 +6,11 @@
 - Code có chú thích tiếng Việt, chờ phần tử và tạo phiên độc lập cho mỗi test.
 - Đã chạy trên Android `emulator-5554` ngày 13/10/2026: `3 passed in 41.84s`.
 - Log thực tế: `ket-qua-pytest.txt`; ba ảnh màn ứng dụng nằm trong `anh/`.
-- Đã bổ sung ảnh terminal `anh/image.png` từ lần nhóm trưởng tự chạy lại:
+- Đã bổ sung ảnh terminal `anh/image.png` từ lần tự chạy lại:
   cả ba test PASSED, tổng kết `3 passed in 26.81s`.
-- Chưa có phần ghi chú cá nhân của các thành viên cho tuần 5.
+- Phần nhận xét và câu trả lời cá nhân bên dưới cần bổ sung.
 
-## Thành viên: [điền họ tên — mỗi người sao chép mục này]
+## Ghi chú cá nhân
 
 - Phần tôi đã thực hiện: [điền đúng việc thực tế]
 - Điều tôi hiểu về tìm phần tử, nhập dữ liệu, bấm nút và assert: [điền]
@@ -29,9 +29,8 @@
 - Lỗi môi trường đã gặp: ADB nhận máy ảo nhưng lệnh shell không phản hồi.
   Khởi động lại ADB bằng `adb kill-server` rồi `adb start-server`;
   kiểm tra `sys.boot_completed` trả về `1`, sau đó chạy lại thành công.
-- Các kết quả này do trợ lý chạy trên máy nhóm trưởng; không thay thế ghi chú
-  về việc tự thực hành và hiểu code của mỗi thành viên.
+- Các kết quả này do trợ lý chạy trên máy cá nhân; lần tự chạy lại được lưu
+  riêng trong ảnh `anh/image.png`.
 
 Trợ lý hỗ trợ soạn test case, code Appium/pytest, hướng dẫn và khung ghi chú.
-Các thành viên cần đọc, tự chạy, kiểm tra và giải thích code; không coi phần
-soạn sẵn này là ghi chú trải nghiệm cá nhân của mọi người.
+Phần nhận xét cá nhân cần phản ánh cách hiểu và trải nghiệm thực hành thực tế.

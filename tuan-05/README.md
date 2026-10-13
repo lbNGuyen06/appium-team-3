@@ -5,11 +5,11 @@
 - `testcases.md`: ba test case đăng nhập viết bằng lời trước khi có code.
 - `test_login.py`: ba bài kiểm thử, có chú thích tiếng Việt và chạy thành công.
 - `anh/`: ảnh kết quả cho thấy ba bài thành công.
-- `notes.md`: có phần của mọi thành viên, trả lời 1–2 câu hỏi phần đọc,
+- `notes.md`: ghi chú cá nhân, trả lời 1–2 câu hỏi phần đọc,
   ghi việc sử dụng AI và cách kiểm tra câu trả lời.
 - Đưa lên nhánh `week-05`, sau đó gộp vào `main` trước buổi học tiếp theo.
 
-## Chạy trên máy nhóm trưởng
+## Chạy trên máy cá nhân
 
 Bật máy ảo Android đã cài Swag Labs. Mở PowerShell tại thư mục gốc dự án.
 Nếu Appium đã chạy thì bỏ qua bước bật server; không chạy hai server cùng cổng.
@@ -38,7 +38,7 @@ trước mỗi trường hợp. Mong đợi `3 passed`, kể cả hai tình hu�
 
 Code chụp ảnh màn ứng dụng sau khi các kiểm tra của từng test thành công.
 Chụp thêm màn hình terminal thể hiện cả ba test PASSED và dòng `3 passed`,
-lưu trong `anh/ket-qua-pytest.png`. Ảnh của lần chạy cũ không chứng minh lần chạy mới;
+lưu trong `anh/image.png`. Ảnh của lần chạy cũ không chứng minh lần chạy mới;
 luôn đối chiếu với kết quả terminal hiện tại.
 
 ## Giải thích code
@@ -49,4 +49,4 @@ luôn đối chiếu với kết quả terminal hiện tại.
 - `assert_login_error`: so sánh thông báo lỗi và kiểm tra vẫn ở trang đăng nhập.
 - Các hàm `test_login_*`: thực hiện ba test case tương ứng TC01–TC03.
 
-Các máy thành viên khác cần thay đường dẫn SDK/JDK và mã thiết bị cho phù hợp.
+Khi chạy trên máy khác, thay đường dẫn SDK/JDK và mã thiết bị cho phù hợp.

@@ -1,9 +1,13 @@
-# Thực hành kiểm thử tự động — nhóm App — tuần 4
+# Thực hành kiểm thử tự động Android — Lê Bá Nguyên
 
-Mục tiêu: mở Swag Labs trên Android và kiểm tra có ô tên đăng nhập.
-Code được chuẩn bị với hỗ trợ AI; đã chạy trên máy ảo emulator-5554 của nhóm trưởng
-và đạt `1 passed in 9.87s`. Kết quả này không thay thế phần thực hành của từng thành viên.
-Mỗi thành viên cần tự gõ, chạy, giải thích code và viết ghi chú riêng theo đề bài.
+Bài thực hành cá nhân trên Swag Labs, sử dụng Python, pytest và Appium.
+
+- Tuần 4: mở ứng dụng, kiểm tra ô Username; đã chạy thành công.
+- Tuần 5: ba trường hợp đăng nhập; ảnh lần tự chạy ghi nhận `3 passed in 26.81s`.
+  Xem [hướng dẫn tuần 5](tuan-05/README.md).
+
+Code và tài liệu được chuẩn bị với hỗ trợ AI. Ghi chú và minh chứng nằm trong
+thư mục của từng tuần.
 
 ## 1. Chuẩn bị
 
@@ -85,16 +89,15 @@ server nhận yêu cầu → UiAutomator2 điều khiển Android → trả kế
 
 Sau lần chạy thành công, cố ý đổi `test-Username` thành `test-Username-SAI`,
 chạy lại và đọc lỗi timeout. Ghi nhận lỗi rồi sửa lại locator đúng, chạy lại PASS.
-Mỗi người tự viết chú thích tiếng Việt và hoàn thành `tuan-04/notes.md`.
+Ghi lại nhận xét cá nhân trong `tuan-04/notes.md`.
 
-## 5. Nộp bài nhóm
+## 5. Nộp bài cá nhân
 
-Nhóm trưởng tạo repository GitHub và mời thành viên. Nếu đã có repository,
-dùng repository đó, không tạo bản trùng. Khi đã có nhánh main, tạo nhánh
-`week-04`, đưa các file bài làm vào đó rồi gộp vào main trước buổi tiếp theo.
+Mỗi tuần lưu bài trong `tuan-<số tuần>/`, làm trên nhánh `week-<số tuần>`
+và gộp vào `main` khi sẵn sàng nộp. Không cần chờ bài của người khác.
 
 Nộp `README.md`, `requirements.txt`, `package.json`, `package-lock.json` (sau cài),
-`.gitignore`, `tuan-04/test_smoke.py`, ghi chú và ảnh của mọi thành viên.
+`.gitignore`, code kiểm thử, ghi chú cá nhân và ảnh minh chứng của tuần tương ứng.
 Không nộp `.venv`, `node_modules`, `.appium` hoặc APK.
 
 ## Xử lý lỗi thường gặp

@@ -1,9 +1,8 @@
-# Ghi chú tuần 4 — nhóm App
+# Ghi chú tuần 4 — Lê Bá Nguyên
 
-Mỗi thành viên bổ sung một mục riêng và viết bằng lời của mình sau khi thực hành.
-Hiện file có ghi chú của Lê Bá Nguyên; các thành viên khác cần bổ sung.
+Bài thực hành cá nhân trên ứng dụng Android Swag Labs.
 
-## Thành viên: Lê Bá Nguyên
+## Ghi chú cá nhân
 
 - Ảnh minh chứng: anh/image.png
 - Điều đã học: Tôi hiểu cách dùng Python để điều khiển
@@ -14,12 +13,10 @@ Hiện file có ghi chú của Lê Bá Nguyên; các thành viên khác cần b�
 - Sử dụng AI: AI hỗ trợ chuẩn bị code và giải thích lỗi.
   Tôi đã tự chạy lại bài và xem kết quả trên terminal.
 
-## Theo dõi của nhóm trưởng
-
 ### Kết quả thực hành có hỗ trợ AI ngày 07/10/2026
 
-Các kết quả dưới đây do trợ lý chạy trên máy của nhóm trưởng; từng thành viên
-vẫn cần tự thực hành và viết nhận xét riêng ở phần của mình.
+Các kết quả dưới đây do trợ lý chạy trên máy cá nhân. Ảnh `anh/image.png`
+là minh chứng lần tự chạy lại.
 
 - Thiết bị: máy ảo Android `emulator-5554`; SDK ở `E:\Android_SDK`.
 - Môi trường quan sát được: Python 3.13.3, pytest 8.4.2, Appium 2.19.0,
@@ -33,8 +30,7 @@ vẫn cần tự thực hành và viết nhận xét riêng ở phần của mì
 - Log: `ket-qua-smoke.txt`, `ket-qua-co-y-sai.txt`, `ket-qua-sau-khi-sua.txt`.
 - Nhận xét kỹ thuật: locator sai làm bài kiểm thử thất bại dù ứng dụng vẫn
   hiện ô Username. Cần kiểm tra cách tìm phần tử trước khi kết luận app bị lỗi.
-- Đã có ảnh và ghi chú của Lê Bá Nguyên; chưa có phần của các thành viên khác.
 
-| Thành viên | Cài xong      | Tự chạy PASS  | Có ảnh  | Có ghi chú |
-| ---------- | ------------- | ------------- | ------- | ---------- |
-| Lê Bá Nguyên | Đã cài | Đã chạy PASS | anh/image.png | Đã có; cần bổ sung câu hỏi phần đọc |
+## Câu hỏi phần đọc
+
+Cần bổ sung 1–2 câu trả lời bằng lời của mình theo yêu cầu bài học.
