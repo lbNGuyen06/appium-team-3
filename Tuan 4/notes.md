@@ -19,17 +19,7 @@ Kết quả nhận được:
 
 Kết quả cho thấy chương trình đã kết nối được với Appium Server, tìm thấy ô Username và xác nhận ô này đang hiển thị.
 
-## 3. Câu hỏi đọc tài liệu
-
-**Câu hỏi 1:** [Điền nguyên văn câu hỏi đọc tài liệu thứ nhất của giảng viên]
-
-**Trả lời:** [Điền câu trả lời dựa trên tài liệu được giao]
-
-**Câu hỏi 2:** [Điền nguyên văn câu hỏi đọc tài liệu thứ hai của giảng viên]
-
-**Trả lời:** [Điền câu trả lời dựa trên tài liệu được giao]
-
-## 4. Sử dụng AI
+## 3. Sử dụng AI
 
 **Đã sử dụng AI:** Có.
 
