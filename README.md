@@ -5,6 +5,9 @@ Bài thực hành cá nhân trên Swag Labs, sử dụng Python, pytest và Appi
 - Tuần 4: mở ứng dụng, kiểm tra ô Username; đã chạy thành công.
 - Tuần 5: ba trường hợp đăng nhập; ảnh lần tự chạy ghi nhận `3 passed in 26.81s`.
   Xem [hướng dẫn tuần 5](tuan-05/README.md).
+- Tuần 6: thực hiện A1–A4 theo sheet mới: sắp xếp, giỏ hàng/kéo-thả,
+  cuộn/chụp ảnh, phiên Appium/menu. Xem [hướng dẫn tuần 6](tuan-06/README.md)
+  và [báo cáo chuyên đề](tuan-06/bao-cao-chuyen-de.md).
 
 Code và tài liệu được chuẩn bị với hỗ trợ AI. Ghi chú và minh chứng nằm trong
 thư mục của từng tuần.

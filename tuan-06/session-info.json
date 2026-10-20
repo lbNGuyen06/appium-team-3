@@ -1,0 +1,44 @@
+{
+  "session_id": "2fbfbd25-b23d-4421-b768-c8c7ed39209e",
+  "capabilities": {
+    "platformName": "Android",
+    "automationName": "UiAutomator2",
+    "deviceName": "emulator-5554",
+    "udid": "emulator-5554",
+    "appPackage": "com.swaglabsmobileapp",
+    "appActivity": "com.swaglabsmobileapp.MainActivity",
+    "noReset": false,
+    "platform": "LINUX",
+    "webStorageEnabled": false,
+    "takesScreenshot": true,
+    "javascriptEnabled": true,
+    "databaseEnabled": false,
+    "networkConnectionEnabled": true,
+    "locationContextEnabled": false,
+    "warnings": {},
+    "desired": {
+      "platformName": "Android",
+      "automationName": "UiAutomator2",
+      "deviceName": "Android Emulator",
+      "udid": "emulator-5554",
+      "appPackage": "com.swaglabsmobileapp",
+      "appActivity": "com.swaglabsmobileapp.MainActivity",
+      "noReset": false
+    },
+    "deviceUDID": "emulator-5554",
+    "pixelRatio": "2.625",
+    "statBarHeight": 128,
+    "viewportRect": {
+      "left": 0,
+      "top": 128,
+      "width": 1080,
+      "height": 2272
+    },
+    "deviceApiLevel": 34,
+    "platformVersion": "14",
+    "deviceManufacturer": "Google",
+    "deviceModel": "sdk_gphone64_x86_64",
+    "deviceScreenSize": "1080x2400",
+    "deviceScreenDensity": 420
+  }
+}
